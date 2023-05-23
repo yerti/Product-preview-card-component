@@ -105,6 +105,15 @@ button {
 }
 
 @media screen and (min-width: 426px) {
+    .contenido-total {
+        padding: 20px 80px;
+    }
+    .contenido-texto {
+        height: auto;
+    }
+    button {
+        margin-bottom: 20px;
+    }
     .productos-imagenes-mobiles {
         height: 420px;
     }
@@ -119,9 +128,14 @@ button {
     }
 }
 
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 1024px) {
+    main {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .contenido-total {
-        padding-top: 80px;
         display: flex;
         flex-direction: row;
     }
